@@ -16,7 +16,7 @@ public class DetailsActivity extends ActionBarActivity {
         String title = getIntent().getStringExtra("title");
         Bitmap bitmap = getIntent().getParcelableExtra("image");
 
-        //need to add the date and rating data here
+        //need to add the date and rating data right here
 
         TextView titleTextView = (TextView) findViewById(R.id.title);
         titleTextView.setText(title);
